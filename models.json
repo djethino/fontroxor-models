@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "models": [
+    {
+      "id": "manu-mcfrench",
+      "version": 1,
+      "name": "French manuscripts, 17th–21st century (Manu McFrench)",
+      "kind": "handwriting",
+      "languages": [
+        "fr"
+      ],
+      "scripts": [
+        "Latn"
+      ],
+      "license": "CC-BY-4.0",
+      "authors": "Simon Gabay, Thibault Clérice, Alix Chagué (Université de Genève, Inria)",
+      "source": "https://doi.org/10.5281/zenodo.10886224",
+      "changes": "Converted from the kraken .mlmodel format to ONNX (softmax added, output [1, columns, classes]); network and character set unchanged.",
+      "licenseUrl": "https://github.com/djethino/fontroxor-models/blob/main/LICENSES/CC-BY-4.0.txt",
+      "card": "https://github.com/djethino/fontroxor-models/blob/main/manu-mcfrench/README.md",
+      "url": "https://github.com/djethino/fontroxor-models/releases/download/manu-mcfrench-1/manu-mcfrench.zip",
+      "size": 15206996,
+      "sha256": "69610f2be95d244dc8bf1985b025616c297882663d7770e3999d027e25712181"
+    },
+    {
+      "id": "paddleocr-latin-v5",
+      "version": 1,
+      "name": "Latin script, printed (PP-OCRv5 mobile)",
+      "kind": "print",
+      "languages": [
+        "en",
+        "fr",
+        "de",
+        "af",
+        "it",
+        "es",
+        "bs",
+        "pt",
+        "cs",
+        "cy",
+        "da",
+        "et",
+        "ga",
+        "hr",
+        "uz",
+        "hu",
+        "sr",
+        "id",
+        "oc",
+        "is",
+        "lt",
+        "mi",
+        "ms",
+        "nl",
+        "no",
+        "pl",
+        "sk",
+        "sl",
+        "sq",
+        "sv",
+        "sw",
+        "tl",
+        "tr",
+        "la"
+      ],
+      "scripts": [
+        "Latn"
+      ],
+      "license": "Apache-2.0",
+      "authors": "PaddlePaddle Authors (Baidu); ONNX conversion by monkt",
+      "source": "https://github.com/PaddlePaddle/PaddleOCR",
+      "changes": "Redistributed unchanged from the ONNX conversion at https://huggingface.co/monkt/paddleocr-onnx (Apache-2.0).",
+      "licenseUrl": "https://github.com/djethino/fontroxor-models/blob/main/LICENSES/Apache-2.0.txt",
+      "card": "https://github.com/djethino/fontroxor-models/blob/main/paddleocr-latin-v5/README.md",
+      "url": "https://github.com/djethino/fontroxor-models/releases/download/paddleocr-latin-v5-1/paddleocr-latin-v5.zip",
+      "size": 7267534,
+      "sha256": "0e850b1540c7f7eaf4b9b041336d66273d256487000644a391c415cbebbca617"
+    },
+    {
+      "id": "paddleocr-chinese-v5",
+      "version": 1,
+      "name": "Chinese, Japanese and Latin, printed and handwritten Chinese (PP-OCRv5 server)",
+      "kind": "print",
+      "languages": [
+        "zh",
+        "ja",
+        "en"
+      ],
+      "scripts": [
+        "Hans",
+        "Hant",
+        "Jpan",
+        "Latn"
+      ],
+      "license": "Apache-2.0",
+      "authors": "PaddlePaddle Authors (Baidu); ONNX conversion by monkt",
+      "source": "https://github.com/PaddlePaddle/PaddleOCR",
+      "changes": "Redistributed unchanged from the ONNX conversion at https://huggingface.co/monkt/paddleocr-onnx (Apache-2.0).",
+      "licenseUrl": "https://github.com/djethino/fontroxor-models/blob/main/LICENSES/Apache-2.0.txt",
+      "card": "https://github.com/djethino/fontroxor-models/blob/main/paddleocr-chinese-v5/README.md",
+      "url": "https://github.com/djethino/fontroxor-models/releases/download/paddleocr-chinese-v5-1/paddleocr-chinese-v5.zip",
+      "size": 76229861,
+      "sha256": "b90b2bc6585a882b0e22f8574ac299e0262041b988168c8ba01f11e73dddf52a"
+    },
+    {
+      "id": "paddleocr-arabic-v3",
+      "version": 1,
+      "name": "Arabic script, printed (PP-OCRv3 mobile)",
+      "kind": "print",
+      "languages": [
+        "ar",
+        "ur",
+        "fa"
+      ],
+      "scripts": [
+        "Arab"
+      ],
+      "license": "Apache-2.0",
+      "authors": "PaddlePaddle Authors (Baidu); ONNX conversion by monkt",
+      "source": "https://github.com/PaddlePaddle/PaddleOCR",
+      "changes": "Redistributed unchanged from the ONNX conversion at https://huggingface.co/monkt/paddleocr-onnx (Apache-2.0).",
+      "licenseUrl": "https://github.com/djethino/fontroxor-models/blob/main/LICENSES/Apache-2.0.txt",
+      "card": "https://github.com/djethino/fontroxor-models/blob/main/paddleocr-arabic-v3/README.md",
+      "url": "https://github.com/djethino/fontroxor-models/releases/download/paddleocr-arabic-v3-1/paddleocr-arabic-v3.zip",
+      "size": 8130528,
+      "sha256": "7e0ab3dba4feb0cfee8c1e922e88459749422f5d279b2230c16491c4fddca45e"
+    }
+  ]
+}
