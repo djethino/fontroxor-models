@@ -26,11 +26,12 @@ them to read a photographed or scanned handwritten sheet and turn each letter in
 - Releases: one per model and version, tagged `<model>-<version>`, carrying `<model>.zip` (the model files, its card
   and its licence).
 - `tools/build.py`: builds the archives and the catalogue.
+- `tools/convert_kraken.py`: converts a [kraken](https://kraken.re) model to the format above.
 
 ## Choosing models
 
 FontRoxor is a commercial product. A model is only added if its licence allows commercial use **and** its training
 data does too: a model under an open licence trained on non-commercial data (such as IAM or Muharaf) is left out.
 
-Kraken models are converted with the script in FontRoxor's repository (`tools/htr/convert_kraken.py`), and checked to
-read exactly as kraken does.
+Kraken models are converted with [`tools/convert_kraken.py`](tools/convert_kraken.py), and checked to read exactly as
+kraken does.

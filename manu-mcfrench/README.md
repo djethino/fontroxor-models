@@ -13,7 +13,7 @@ century gathered by [HTR-United](https://htr-united.github.io/). FontRoxor uses 
 
 ## What we changed
 
-The network was converted from the kraken format to ONNX by FontRoxor's `tools/htr/convert_kraken.py`:
+The network was converted from the kraken format to ONNX by [`tools/convert_kraken.py`](../tools/convert_kraken.py) of this repository:
 
 - a softmax is added at the end, and the output is laid out as `[1, columns, classes]`;
 - the character set is written to `dict.txt` (line *k* is class *k* + 1; class 0 is the CTC blank);
